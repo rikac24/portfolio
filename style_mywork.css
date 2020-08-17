@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&family=Sriracha&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+
+h1 {
+	font-family: "Livvic", sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+}
+
+.links li, a, button {
+	font-family: "Livvic", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 8%;
+}
+
+h1 {
+	cursor: pointer;
+}
+
+h1:hover {
+	color: #ff5757;
+}
+
+.links {
+	list-style: none;
+}
+
+.links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.link, li, a {
+	transition: all 0.3s ease 0s;
+}
+
+ul.links > li > a:hover {
+	color: #ff5757;
+}
+
+button {
+	padding: 10px 25px;
+	border: none;
+	background-color: #ff5757;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: #f44949;
+}
+
+div.first {
+	background-color: white;
+	position: absolute;
+	top: 15%;
+}
+
+
+div.first > p {
+	font-family: "Livvic", sans-serif;
+	font-weight: 400;
+	font-size: 100px;
+	color: white;
+	text-decoration: none;
+	top: 40%;
+	left: 12%;
+	position: absolute;
+	background-color: transparent;
+}
+
+div.second {
+	background-color: #f2f0f0;
+	top: 30%;
+}
+
+div.second > div.a {
+	background-color: #ff5757;
+	position: absolute;
+	padding: 250px 200px;
+	top: 190%;
+	left: 5%;
+	border: 5px;
+	z-index: 2;
+}
+
+div.second > img {
+	position: absolute;
+	height: auto;
+	width: auto;
+	top: 168%;
+	left: 9%;
+	border: 5px;
+	z-index: 3;
+}
+
+div.second > a {
+	font-family: "Livvic", sans-serif;
+	font-weight: 400;
+	font-size: 70px;
+	color: black;
+	text-decoration: none;
+	top: 160%;
+	left: 45%;
+	position: absolute;
+	background-color: transparent;
+	transition: all 0.3s ease 0s;
+	z-index: 5;
+}
+
+div.second > a:hover {
+	color: #ff5757;
+}
+
+div.second > p#a2 {
+	font-family: "Kaushan Script", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ff5757;
+	text-decoration: none;
+	top: 169%;
+	left: 45%;
+	right: 15%;
+	position: absolute;
+	background-color: transparent;
+	z-index: 4;
+}
+
+div.second > p#a1 {
+	font-family: "Livvic", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	top: 175%;
+	left: 45%;
+	right: 15%;
+	position: absolute;
+	background-color: transparent;
+	z-index: 3;
+}
+
+div.second > ul.b {
+	font-family: "Kaushan Script", sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: #ff5757;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;	
+	z-index: 2;
+}
+
+div.second > ul.b > p#a3 {
+	top: 205%;
+	right: 7%;
+	background-color: transparent;
+	position: absolute;
+	text-decoration: none;
+	z-index: 2;
+}
+
+div.second > ul.b > p#a4 {
+	top: 215%;
+	right: 7%;
+	background-color: transparent;
+	position: absolute;
+	text-decoration: none;
+	z-index: 2;
+}
+
+div.second > ul.b > p#a5 {
+	top: 225%;
+	right: 7%;
+	background-color: transparent;
+	position: absolute;
+	text-decoration: none;
+	z-index: 2;
+}
+
+div.second > p#a6 {
+	font-family: "Livvic";
+	font-size: 150px;
+	font-weight: 400;
+	position: absolute;
+	color: #f2f0f0;
+	background-color: transparent;
+	top: 165%;
+	left: 38%;
+	right: 70%;
+	z-index: 1;
+}
+
+/* WORK 2 */
+
+div.third {
+	background-color: #f2f2f2;	;
+	box-sizing: border-box;
+	padding: 470px 200px;
+}
+
+div.third > img {
+	border-radius: 70%;
+	height: 500px;
+	width: 500px;
+	overflow: hidden;
+	top: 270%;
+	right: 7%;
+	position: absolute;
+	z-index: 2;
+}
+
+div.third > div.b, div.c, div.d {
+	position: absolute;
+	background-color: #ff5757;
+	border-radius: 50%;
+}
+
+div.third > div.b {
+	top: 290%;
+	right: 31%;
+	height: 70px;
+	width: 70px;
+	z-index: 3;
+}
+
+div.third > div.c {
+	top: 305%;
+	right: 8%;
+	height: 230px;
+	width: 230px;
+	z-index: 1;
+}
+
+div.third > div.d {
+	top: 275%;
+	right: 10%;
+	height: 40px;
+	width: 40px;
+	z-index: 1;
+}
+
+div.third > a {
+	font-family: "Permanent Marker";
+	font-size: 70px;
+	color: #ff5757;
+	top: 260%;
+	left: 8%;
+	position: absolute;
+	background-color: transparent;
+	transition: all 0.3s ease 0s;
+}
+
+div.third > a:hover {
+	color: black;
+}
+
+div.third > p#a1 {
+	font-family: "Livvic";
+	font-weight: 400;
+	font-size: 20px;
+	top: 280%;
+	left: 8%;
+	right: 40%;
+	position: absolute;
+	color: black;
+	background-color: transparent;
+}
+
+div.third > p#a2 {
+	font-family: "Kaushan Script";
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: black;
+	top: 270%;
+	left: 8%;
+	position: absolute;
+	background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
